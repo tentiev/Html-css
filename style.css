@@ -1,0 +1,90 @@
+.container{
+    background-color: #C04000;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+  }
+  .content{
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    flex-direction: raw;
+    height: 91vh;
+    width: 99%;
+    margin: auto;
+  }
+  .raw-1{
+    width: 30%;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  }
+  .buttons{
+    width: 230px;
+    margin-top: 5px;
+    height: 7.1vh;
+    background-color: #C04000; 
+    color: white;
+    display: flex;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: serif;
+    border: none;
+    padding: 7px;
+  }
+  .two{
+    background-color: white;
+    color: #C81D11;
+    border: solid #C81D11 1px;
+  }
+  h3{
+    color: black;
+    margin-bottom: 21px;
+    font-size: 19px;
+  }
+  .content p{
+    color: black;
+  }
+  .raw-2{
+    width: 30%;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .raw-3{
+    position: relative;
+    width: 30%;
+    left: 30px;
+    display: inline-block;
+    background-color: 	#FFDAB9;
+    height: 35vh;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .red{
+    color: #C04000;
+  }
+  .large{
+    font-size: 21px;
+  }
+  .grey{
+    background-color: #B8B8B8;
+    border: solid grey 1px;
+    border-radius: 10px;
+    color: #C04000; 
+    width: 90%;
+    margin: auto;
+    position: relative;
+    bottom: 6.7rem;
+    padding: 10px;
+  }
+  
+  @media (max-width: 580px) {
+    .content{
+      flex-direction: column;
+    }
+  
